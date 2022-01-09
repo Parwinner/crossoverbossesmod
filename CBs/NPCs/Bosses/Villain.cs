@@ -120,10 +120,10 @@ namespace CBs.NPCs.Bosses
         public override void NPCLoot()
         {
             if (Main.rand.Next(7) == 0) {
-            Item.NewItem(npc.getRect(), ModContent.ItemType<FiveFrettedStaff>());
+            Item.NewItem(npc.getRect(), ModContent.itemType<FiveFrettedStaff>());
             }
             if (Main.rand.Next(21) == 0) {
-            Item.NewItem(npc.getRect(), ModContent.ItemType<RedOctane>());
+            Item.NewItem(npc.getRect(), mod.itemType<RedOctane>());
             }
         }
 
